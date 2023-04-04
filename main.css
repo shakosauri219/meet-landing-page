@@ -1,0 +1,406 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+header {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    margin-top: 48px;
+}
+
+.image-hero {
+    width: 112%;
+    margin-top: 56px;
+}
+
+section {
+    margin-top: 48px;
+    padding: 0px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.starter p {
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #87879D;
+    margin-bottom: 32px;
+}
+
+.starter h1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #28283D;
+}
+
+.buttons-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    border: 0;
+    border-radius: 29px;
+    height: 58px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    align-self: center;
+}
+
+.download {
+    background: #4D96A9;
+    margin-bottom: 16px;
+    width: 59%;
+}
+
+.download span {
+    color: #8FE3F9;
+}
+
+.download:hover {
+    cursor: pointer;
+    background: #71C0D4;
+}
+
+.little-button {
+    background: #855FB1;
+    width: 42%;
+}
+
+.little-button:hover {
+    cursor: pointer;
+    background: #B18BDD;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 24px;
+    margin-top: 64px;
+}
+
+.number1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line {
+    width: 1px;
+    height: 84px;
+    box-sizing: border-box;
+    width: 1px;
+    height: 84px;
+    border: 1px solid #87879D;
+    background-color: #87879D;
+    opacity: 0.25;
+}
+
+.zerone h1 {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #87879D;
+}
+
+.zerone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 29px;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    background-color: white;
+}
+
+.images {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+}
+
+.images img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.description {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column ;
+}
+
+.description h2 {
+    align-self: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4D96A9;
+}
+
+.description h1 {
+    margin-top: 24px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #28283D;
+}
+
+.description p {
+    margin-top: 32px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #87879D;
+}
+
+footer {
+    margin-top: 176px;
+    background-image: url(./assets/mobile/image-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.number2 {
+    right: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    top: -110px;
+    transform: translateX(50%);
+}
+
+.footer-text {
+    padding: 92px 24px 72px 24px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+} 
+
+footer .color {
+    width: 100%;
+    height: 100%;
+    background-color:  #4D96A9;
+    opacity: 0.9;
+    position: absolute;
+}
+
+
+.footer-text h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #FAFAFA;
+    align-self: center;
+}
+
+.footer-text p {
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FAFAFA;
+    align-self: center;
+}
+
+.footer-text button {
+    margin-top: 32px;
+    align-self: center;
+    width: 59%;
+    background: #855FB1;
+}
+
+footer span {
+    color: #D9B8FF;
+}
+
+@media screen and (min-width:768px) {
+    .image-hero {
+        margin-top: 66px;
+        width: 105%;
+    }
+
+    .starter {
+        width: 59%;
+    }
+
+    .buttons-div {
+        width: 76%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .starter .download {
+        margin: 0px;
+        width: 55%;
+    }
+
+    .starter .little-button {
+        width: 39%;
+    }
+
+    main {
+        margin-top: 80px;
+        padding: 0px 40px;
+    }
+
+    .images {
+        grid-template-columns: auto auto auto auto;
+        gap: 11px;
+    }
+
+    .description {
+        padding: 0px 48px;
+    }
+
+    .description h1 {
+        font-size: 40px;
+        line-height: 44px;
+        margin-top: 16px;
+    }
+
+    footer {
+        margin-top: 192px;
+        background-image: url(./assets/tablet/image-footer.jpg);
+    }
+
+    .footer-text {
+        padding: 92px 98px 66px 98px;
+    }
+
+    .footer-text h1 {
+        padding: 0px 174px;
+    }
+
+    .footer-text button {
+        width: 33%;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    body {
+        background-image: url(./assets/desktop/image-hero-left.png),
+        url(./assets/desktop/image-hero-right.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: left -32px top 169px, right -32px top 224px;
+    }
+
+    .logo {
+        margin-top: 80px;
+    }
+
+    .image-hero {
+        display: none;
+    }
+
+    .starter {
+        width: 37.5%;
+        margin-top: 110px;
+    }
+
+    .starter h1 {
+        font-size: 64px;
+        font-weight: 900;
+        line-height: 64px;
+    }
+
+    .starter p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    main {
+        margin-top: 117px;
+        padding: 0px 165px;
+    }
+
+    .images {
+        gap: 30px;
+    }
+
+    .description {
+        margin-top: 80px;
+        width: 37.5%;
+        padding: 0px;
+    }
+
+    footer {
+        margin-top: 184px;
+        background-image: url(./assets/desktop/image-footer.jpg);
+    }
+
+    .footer-text {
+        padding: 116px 165px 104px 165px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-text h1 {
+        padding: 0px;
+        text-align: start;
+        width: 30%;
+    }
+
+    .footer-text p {
+        margin-left: 92px;
+        text-align: start;
+        margin-top: 0px;
+        width: 30%;
+    }
+
+    .footer-text button {
+        margin-top: 0px;
+        width: 20%;
+    }
+
+    .footer-text button:hover {
+        background: #B18BDD;
+        cursor: pointer;
+    }
+}
+
